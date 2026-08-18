@@ -45,7 +45,9 @@ Full detail in [plugins/firstday/README.md](plugins/firstday/README.md).
 inheriting whatever a session already has: read/write on one user-nominated
 folder, plus calendar read, mail read and scheduled tasks for the morning brief.
 Approving all four is the intent — the pack's value is joining them together,
-and filesystem alone gives you a filing cabinet rather than an assistant. What
+and filesystem alone gives you a filing cabinet rather than an assistant. That
+list is a floor, not a ceiling: the pack also uses whatever else the user
+already has connected, and requests nothing on its own. What
 it never asks for: calendar write, mail send, contacts, or any folder other than
 the one the user names. Full table, including how named colleagues in
 `People.md` are constrained and aged out, in

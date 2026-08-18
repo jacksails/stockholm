@@ -13,12 +13,37 @@ Set it up, prove it works, and get out of the way.
 
 ## Stage 1 — Find out what you can reach
 
-Check, in this order:
+**Look at everything they have connected, not a fixed list.** Whatever is
+wired up — Gmail, Google or Outlook Calendar, Slack, a task manager, a CRM,
+notes, a ticket tracker — is fair game and already approved by whoever approved
+it. Your job is to find out what is there and use it. Do not assume the four
+below are the whole world; they are the floor, not the ceiling.
+
+The baseline:
 
 1. **Their files** — the second brain. This is the only one that is genuinely required.
 2. **Calendar** — turns a decent brief into a useful one.
-3. **Mail** — optional, and often the thing that makes it feel alive.
+3. **Mail** — the thing that most often makes it feel alive.
 4. **A way to schedule and deliver** — a scheduled task, a recurring job, whatever the surface offers.
+
+**Then take stock of everything else and say what it would add.** A brief that
+knows about their actual work beats one that only knows their diary:
+
+- A **task manager** (Things, Todoist, Asana, Linear, ClickUp, Jira) — what is
+  due today and what has slipped
+- **Slack or Teams** — threads waiting on a reply, mentions from yesterday
+  evening
+- A **CRM or project system** — whose account the 10am is about, what changed on
+  it since last week
+- **Notes or a wiki** — the doc attached to the meeting they have not opened
+
+Do not enumerate this list to them. Look, pick the two or three that genuinely
+improve their brief, and show it in the sample.
+
+**One rule about reach: use what is there, never ask for more.** If something
+would obviously help and is not connected, name it once as a suggestion and move
+on. Do not push them into granting access mid-conversation, and never imply the
+brief is broken without it.
 
 Say what you found in one line, and **be exact about what you cannot reach**.
 If a connector is missing, name it and say what it would have added — do not
@@ -54,12 +79,18 @@ Today
 - 14:00 [Meeting] — [the open thread]
 
 Open
-- [Item from Now.md that hasn't moved]
-- [Anything waiting on them]
+- [Item from their files that hasn't moved]
+- [Anything waiting on them — a reply owed, a task due, a thread unanswered]
 
 One thing
 [The single item most worth their attention today.]
 ```
+
+**The `Open` lines can come from anywhere you can reach** — their own files, an
+overdue task, a Slack thread they never answered, a ticket assigned to them
+yesterday. Draw from whatever they actually have. Keep the shape the same
+regardless of how many sources you pulled from: the point is a short brief, not
+a demonstration of everything you can see.
 
 Then ask what they want changed, and wait for a proper answer before building anything.
 

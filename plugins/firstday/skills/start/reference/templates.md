@@ -96,6 +96,8 @@ One line. Name, role, organisation.
 - Check `People.md` before advising me on anyone by name
 - Check what I'm driving in `About me.md` before telling me what matters
 - If a file's date is more than a month old, say so rather than trusting it
+- Use whatever I've got connected — mail, calendar, tasks, chat — rather than
+  asking me to paste something you could look up yourself
 
 ## What I never want
 - [Anything they named]
@@ -121,6 +123,11 @@ Don't ask them to design it and don't let it grow — five lines is the whole of
 
 **On length.** Two pages is a ceiling, not a target. A short instructions file
 that gets followed beats a thorough one that doesn't.
+
+**On connectors.** The line about using what they have connected is worth
+keeping even if they currently have nothing wired up — it costs one line now and
+means the day their calendar or mail is switched on, it gets used without anyone
+remembering to come back and edit this file.
 
 **On growth.** Tell them the rule for adding to it: add a line when Claude makes
 the same mistake twice. Not before.

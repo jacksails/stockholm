@@ -213,7 +213,12 @@ Two things, in order, and neither is optional.
 
 Some people will want to stop, and stopping is a fine outcome. Do not talk anyone into a demonstration.
 
-**If the real thing needs something you cannot reach** — their inbox is the most common answer by a distance — do not give up and do not substitute a toy task. Ask them to bring you the raw material:
+**Check what you can actually reach before assuming you cannot.** If their mail,
+calendar, task manager or chat is connected, use it — that is a far better
+demonstration than anything they paste, and it is the moment the whole thing
+becomes obvious to them.
+
+**If the real thing needs something you genuinely cannot reach** — their inbox is the most common answer by a distance — do not give up and do not substitute a toy task. Ask them to bring you the raw material:
 
 > I can't see your inbox from here. Open it, copy the senders and subject lines from the last hour or so, fifteen is plenty, and paste them in.
 

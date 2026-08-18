@@ -69,6 +69,13 @@ missing line is the fix, not a one-off clear-out.
 
 **Unused capability.** A setup with no skills, no connectors and no automation is a filing cabinet. It works, but it is doing a fraction of what it could. Name the specific one you would add first, and why it fits their work rather than why it is generally good.
 
+**And look for connectors they already have and the setup ignores.** This is the
+cheapest finding available and one of the most common: mail, calendar, a task
+manager or a chat tool is connected and approved, and nothing in their
+instructions ever tells Claude to use it. No approval needed, no new tooling —
+just a line in the instructions file. Name the connector and the line you would
+add.
+
 **Maintenance.** When did anything last change? Where you cannot see dates, ask: *"when did you last change any of this?"* A setup nobody has edited in three months is not stable, it is abandoned, and this is the finding that predicts all the others.
 
 **Then check whether the maintenance was ever anybody's job but theirs.** Most instruction files say how the person wants to be worked with and nothing about how the files themselves stay true. That leaves every update depending on the owner noticing, which is exactly the thing that stops happening around week six. Look for five behaviours and name the ones missing: offering to file something they have just mentioned, flagging a line that has gone out of date rather than working around it, writing meetings up into the folder, offering to clear people and notes that have gone stale, and saying which file and date an answer came from. The last is the one nobody has and the one that matters most — an assistant confidently wrong from its owner's own stale notes is worse than one that knows nothing.

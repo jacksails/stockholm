@@ -29,15 +29,24 @@ You can also just ask in plain English — "set up my second brain" will find it
 
 ## What this needs access to
 
-For IT, so these can be pre-approved rather than inherited from whatever the
-session already happens to have. This is the complete list — nothing here needs
-more.
+For IT, so the baseline can be pre-approved deliberately rather than inherited
+from whatever a session already happens to have. This is everything the pack
+*assumes*; it never requests access itself, and can only ever use what has
+already been granted to that user.
 
 **Approve all four if you can.** The point of this pack is joining things
 together: the value is an assistant that reads your day out of your calendar,
 knows what is outstanding, and writes it against context it already holds about
 your role and your people. Each item below degrades gracefully on its own, but
 approving only the filesystem leaves a filing cabinet rather than an assistant.
+
+**This is a floor, not a ceiling.** The pack is designed to use whatever else
+the user already has connected — Gmail, Outlook, Slack, a task manager, a CRM,
+notes — and gets better the more of their real work it can see. It requests
+nothing itself: it can only use what has already been approved for that user by
+whoever approves such things, and it is told to suggest rather than push if
+something useful is missing. So the table below is what it assumes, not what it
+is limited to.
 
 | Access | Used by | What for | If denied |
 |---|---|---|---|
