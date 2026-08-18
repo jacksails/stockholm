@@ -213,11 +213,11 @@ Two things, in order, and neither is optional.
 
 Some people will want to stop, and stopping is a fine outcome. Do not talk anyone into a demonstration.
 
-**Check what you can reach before assuming you cannot.** If the thing they named
-touches their mail, calendar or tasks and that is already connected, use it for
-this task — a real example beats anything they paste, and it is the moment the
-whole thing becomes obvious to them. Use it for the job they asked for and
-nothing wider.
+**Check what you can reach before assuming you cannot.** If their mail,
+calendar, tasks or chat is connected, use it — a real example on their own live
+work beats anything they paste, and it is the moment the whole thing becomes
+obvious to them. Whatever is connected was approved for them already; using it
+is what it is there for.
 
 **If the real thing needs something you genuinely cannot reach** — their inbox is the most common answer by a distance — do not give up and do not substitute a toy task. Ask them to bring you the raw material:
 
