@@ -213,10 +213,11 @@ Two things, in order, and neither is optional.
 
 Some people will want to stop, and stopping is a fine outcome. Do not talk anyone into a demonstration.
 
-**Check what you can actually reach before assuming you cannot.** If their mail,
-calendar, task manager or chat is connected, use it — that is a far better
-demonstration than anything they paste, and it is the moment the whole thing
-becomes obvious to them.
+**Check what you can reach before assuming you cannot.** If the thing they named
+touches their mail, calendar or tasks and that is already connected, use it for
+this task — a real example beats anything they paste, and it is the moment the
+whole thing becomes obvious to them. Use it for the job they asked for and
+nothing wider.
 
 **If the real thing needs something you genuinely cannot reach** — their inbox is the most common answer by a distance — do not give up and do not substitute a toy task. Ask them to bring you the raw material:
 

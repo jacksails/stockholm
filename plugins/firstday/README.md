@@ -29,24 +29,20 @@ You can also just ask in plain English — "set up my second brain" will find it
 
 ## What this needs access to
 
-For IT, so the baseline can be pre-approved deliberately rather than inherited
-from whatever a session already happens to have. This is everything the pack
-*assumes*; it never requests access itself, and can only ever use what has
-already been granted to that user.
+**Installing this plugin grants no access to anything.** It contains no code and
+no credentials — it is a set of markdown instructions telling Claude how to run
+an interview and what to write. It cannot request a permission, grant one, or
+escalate one. A user who installs it can do exactly what they could do the day
+before.
 
-**Approve all four if you can.** The point of this pack is joining things
-together: the value is an assistant that reads your day out of your calendar,
-knows what is outstanding, and writes it against context it already holds about
-your role and your people. Each item below degrades gracefully on its own, but
-approving only the filesystem leaves a filing cabinet rather than an assistant.
+That means the question in front of you is not "what will this plugin be able to
+reach", but "what should this user's Claude session be able to reach" — which is
+a decision you have already made, under whatever policy you already apply.
 
-**This is a floor, not a ceiling.** The pack is designed to use whatever else
-the user already has connected — Gmail, Outlook, Slack, a task manager, a CRM,
-notes — and gets better the more of their real work it can see. It requests
-nothing itself: it can only use what has already been approved for that user by
-whoever approves such things, and it is told to suggest rather than push if
-something useful is missing. So the table below is what it assumes, not what it
-is limited to.
+**What the pack assumes.** The table below is the baseline it is designed
+around. Pre-approving these deliberately is better than letting a session
+inherit whatever happens to be switched on, which is the only reason this
+section exists.
 
 | Access | Used by | What for | If denied |
 |---|---|---|---|
@@ -57,7 +53,29 @@ is limited to.
 
 **Not required, and not requested:** calendar write, mail send, contacts,
 directory lookup, or access to any folder other than the one the user names.
-Everything the pack reads, it reads; it does not write to your mail or calendar.
+It does not write to mail or calendar.
+
+**If the user already has other connectors, the pack will use them — within
+their existing approval, never beyond it.** Someone with an approved task
+manager or chat connector gets a morning brief that also knows what is due and
+what is awaiting a reply. This is not the plugin widening its own scope; it has
+no scope of its own to widen. It is one already-approved capability being used
+alongside another, in a session where both were already permitted.
+
+The instructions constrain how that is done:
+
+- **Task-scoped reads only.** It reads what the brief needs — today's meetings,
+  today's open items — and nothing else. It is explicitly told not to inventory
+  the user's tools or catalogue what is available.
+- **No copying between systems.** Connector data is not written into the user's
+  files unless they ask for it.
+- **No asking for more.** If something absent would help, it may say so once and
+  must then leave it. It never presses for access, and never implies it is
+  broken without it.
+
+Approving this plugin approves none of those connectors. They remain governed by
+whatever already governs them, and a user who has none of them still gets a
+working pack.
 
 **Where the data goes.** The files are plain text on the user's own machine and
 are read and written in place. Nothing is uploaded to a third party by the

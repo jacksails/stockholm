@@ -41,16 +41,23 @@ Full detail in [plugins/firstday/README.md](plugins/firstday/README.md).
 
 ## For IT
 
-`firstday` declares exactly what it needs so it can be pre-approved rather than
-inheriting whatever a session already has: read/write on one user-nominated
-folder, plus calendar read, mail read and scheduled tasks for the morning brief.
-Approving all four is the intent — the pack's value is joining them together,
-and filesystem alone gives you a filing cabinet rather than an assistant. That
-list is a floor, not a ceiling: the pack also uses whatever else the user
-already has connected, and requests nothing on its own. What
-it never asks for: calendar write, mail send, contacts, or any folder other than
-the one the user names. Full table, including how named colleagues in
-`People.md` are constrained and aged out, in
+**Installing `firstday` grants no access to anything.** It is markdown
+instructions — no code, no credentials — so it cannot request, grant or escalate
+a permission. A user who installs it can do exactly what they could the day
+before.
+
+The baseline it is designed around: read/write on one folder the user nominates,
+plus calendar read, mail read and scheduled tasks for the morning brief. Never
+calendar write, mail send, contacts, or any other folder.
+
+Where a user already has other connectors approved, the pack makes use of them
+for the task in hand — it is told to read only what the brief needs, not to
+inventory anything, not to copy between systems, and never to press for access
+it does not have. Approving the plugin approves none of those connectors; they
+stay governed by whatever governs them today.
+
+Full detail, including how named colleagues in `People.md` are constrained and
+aged out, in
 [plugins/firstday/README.md](plugins/firstday/README.md#what-this-needs-access-to).
 
 ## If you're not on Claude Code
