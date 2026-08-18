@@ -8,7 +8,7 @@ they're yours and they're MIT licensed.
 Two lines in Claude Code. Type them exactly:
 
 ```
-/plugin marketplace add jacksails/stockholm
+/plugin marketplace add https://github.com/jacksails/stockholm
 ```
 
 ```
@@ -16,6 +16,9 @@ Two lines in Claude Code. Type them exactly:
 ```
 
 Restart Claude Code and type `/firstday:` — the four commands will complete.
+
+The full URL matters: the short `jacksails/stockholm` form works too, but only
+if you already have GitHub SSH keys set up. The URL works for everyone.
 
 ## What's in it
 
