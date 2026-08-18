@@ -29,7 +29,7 @@ If you cannot reach their setup at all, ask them to paste their instructions fil
 
 ---
 
-## Stage 2 — Assess against six things
+## Stage 2 — Assess against seven things
 
 Work through all six. Be specific: name files, quote lines, give dates.
 
@@ -47,11 +47,31 @@ Also worth naming: project knowledge close to its limit means Claude has quietly
 
 **Contradictions.** Two files disagreeing about a person, a priority, a preference or a number. Claude picks one arbitrarily and sounds confident either way. This is the most damaging thing you can find and the least visible, so hunt for it deliberately.
 
+**Retention, and who can read it.** The two files that grow without anyone
+deciding to grow them are the people file and the meeting notes, and both are
+about other people. Check three things and be specific:
+
+- **Departed and dormant people.** Anyone in the people file they have stopped
+  working with. Name them. "Eleven names, four of whom left the business" is a
+  finding; "consider reviewing your stakeholder records" is not.
+- **Meeting notes past their usefulness.** Anything older than six months that
+  is not being referred to. Notes about other people are the part that ages
+  worst.
+- **Where the folder lives.** If it sits in a shared or team folder, everyone
+  with access can read the people file. Ask if you cannot tell. This is a
+  finding they usually cannot see, because the folder was chosen once, before
+  it had anything sensitive in it.
+
+Then check the instructions file actually delegates this. If nothing in it tells
+Claude to flag stale people and old notes, retention depends on the owner
+remembering — which is the thing that stops happening around week six. That
+missing line is the fix, not a one-off clear-out.
+
 **Unused capability.** A setup with no skills, no connectors and no automation is a filing cabinet. It works, but it is doing a fraction of what it could. Name the specific one you would add first, and why it fits their work rather than why it is generally good.
 
 **Maintenance.** When did anything last change? Where you cannot see dates, ask: *"when did you last change any of this?"* A setup nobody has edited in three months is not stable, it is abandoned, and this is the finding that predicts all the others.
 
-**Then check whether the maintenance was ever anybody's job but theirs.** Most instruction files say how the person wants to be worked with and nothing about how the files themselves stay true. That leaves every update depending on the owner noticing, which is exactly the thing that stops happening around week six. Look for four behaviours and name the ones missing: offering to file something they have just mentioned, flagging a line that has gone out of date rather than working around it, writing meetings up into the folder, and saying which file and date an answer came from. The last is the one nobody has and the one that matters most — an assistant confidently wrong from its owner's own stale notes is worse than one that knows nothing.
+**Then check whether the maintenance was ever anybody's job but theirs.** Most instruction files say how the person wants to be worked with and nothing about how the files themselves stay true. That leaves every update depending on the owner noticing, which is exactly the thing that stops happening around week six. Look for five behaviours and name the ones missing: offering to file something they have just mentioned, flagging a line that has gone out of date rather than working around it, writing meetings up into the folder, offering to clear people and notes that have gone stale, and saying which file and date an answer came from. The last is the one nobody has and the one that matters most — an assistant confidently wrong from its owner's own stale notes is worse than one that knows nothing.
 
 **Findings they cannot already see.** Rank by this above everything else. An owner who built their own setup knows their decks are out of date; telling them is a chore, not a review. What they cannot see is where their setup is producing wrong answers without announcing it — contradictions, silent retrieval, a departed colleague still being offered as an option. Lead with those.
 

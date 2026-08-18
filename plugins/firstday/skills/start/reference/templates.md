@@ -52,6 +52,10 @@ Working context only. What each person needs, how they like to be dealt with,
 what they care about. No performance judgements, nothing about pay or health,
 nothing you'd not be comfortable them reading.
 
+Remove people you no longer work with — when they leave, change role, or the
+project ends. An assistant that still offers a departed colleague as the person
+to ask is worse than one that never knew them.
+
 ## [Name] — [relationship, e.g. my manager / my counterpart in Ops]
 - What they need from me:
 - How they like it:
@@ -105,15 +109,25 @@ One line. Name, role, organisation.
 - After a meeting, offer to write it up into `Meetings/`.
 - When an answer leans on one of these files, say which file and when it was
   last updated.
+- If someone in `People.md` hasn't come up in months, or a note in `Meetings/`
+  is older than six months, say so and offer to clear it. Never delete anything
+  without asking me first.
 ```
 
 **The "Keeping this current" section is written as it stands.** Everything else
 in this file comes from their answers; that section doesn't. It is what turns
 the folder from something Claude reads on request into something Claude tends.
-Don't ask them to design it and don't let it grow — four lines is the whole of it.
+Don't ask them to design it and don't let it grow — five lines is the whole of it.
 
 **On length.** Two pages is a ceiling, not a target. A short instructions file
 that gets followed beats a thorough one that doesn't.
 
 **On growth.** Tell them the rule for adding to it: add a line when Claude makes
 the same mistake twice. Not before.
+
+**On retention.** The fifth line of *Keeping this current* is what stops the
+folder becoming a liability. `People.md` names real colleagues and `Meetings/`
+accumulates notes about them, and neither shrinks on its own. Claude offers,
+they decide, nothing goes without being asked — but the offer has to be
+somebody's job or it never happens. Six months is a default, not a rule; if
+they want a different window, use theirs and write it into the line.

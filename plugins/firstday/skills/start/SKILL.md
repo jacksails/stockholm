@@ -52,6 +52,33 @@ Tell them which one they are on in a single sentence, and move:
 
 **Do not ask them to choose.** They do not have the information to choose and it wastes the opening.
 
+### Ask where the folder lives, before you write to it
+
+`People.md` will carry your colleagues' names. Where the folder sits therefore
+decides who else can read them, so settle it before the first write, not after.
+One question, asked plainly:
+
+> One thing before I write anything. Is that folder synced or shared at all —
+> OneDrive, Dropbox, iCloud, a network drive, a team folder? Not a problem
+> either way, I just want to tell you who else would be able to read it. One of
+> these files has your colleagues' names in it.
+
+**A personal cloud folder is normally fine.** Say so in a sentence and move on:
+it syncs to their own account, and the sync provider can see it, but no
+colleague can.
+
+**A shared or team folder is different, and you must say so.** Anyone with
+access to that folder can read `People.md`. Do not refuse to write, and do not
+lecture — give them the fact and an alternative, then do what they choose:
+
+> That one's shared with your team, so anyone in it could open the people file.
+> Your call entirely — I can put it somewhere private instead and you'd lose
+> nothing.
+
+**If they do not know whether it is synced, do not investigate.** Say the files
+are theirs to move at any time, note it in the closing, and get on with the
+interview.
+
 ### Then look before you write
 
 Route detection tells you whether you *can* write. This tells you whether you *should*.
@@ -158,11 +185,19 @@ Write in their words. If they said "I run the P&L for three markets", that goes 
 
 > The `Meetings` folder is empty for now. Drop notes in there after a call — or paste them to me and I'll write them up — and they build up alongside everything else. That's the bit that eventually eats [whatever they named in question five].
 
+**Say how it gets pruned, in the same breath.** A folder that only ever grows
+becomes a liability rather than an asset, and meeting notes about other people
+are the part that ages worst:
+
+> It only earns its place if it stays current, so I'll flag anything in there
+> older than about six months and offer to clear it out. I won't delete
+> anything without asking.
+
 **Route B:** produce all three as text in one document, following `reference/the-pack.md`. Do not pretend to install anything.
 
 Keep `CLAUDE.md` to a page, two at the outside. Longer instructions get followed worse, not better.
 
-**One section of `CLAUDE.md` is not theirs to design.** *Keeping this current* is written as it stands in the template — four lines telling Claude to offer to file what they mention, to say when something in a file has gone wrong, to write meetings up, and to name the file and date it drew from. Everything else in the file comes from their answers; that section is what makes the folder something Claude tends rather than a drawer it opens when asked. Do not workshop it and do not let it grow.
+**One section of `CLAUDE.md` is not theirs to design.** *Keeping this current* is written as it stands in the template — five lines telling Claude to offer to file what they mention, to say when something in a file has gone wrong, to write meetings up, to name the file and date it drew from, and to flag people and meeting notes that have gone stale so they can be cleared. Everything else in the file comes from their answers; that section is what makes the folder something Claude tends rather than a drawer it opens when asked. Do not workshop it and do not let it grow.
 
 ---
 

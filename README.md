@@ -39,6 +39,16 @@ If in doubt, type `start`. It will send you to the right place.
 
 Full detail in [plugins/firstday/README.md](plugins/firstday/README.md).
 
+## For IT
+
+`firstday` declares exactly what it needs so it can be pre-approved rather than
+inheriting whatever a session already has: read/write on one user-nominated
+folder, and optionally calendar read, mail read and scheduled tasks for the
+morning brief. No calendar write, no mail send, no contacts, no other folder.
+Full table, including how named colleagues in `People.md` are constrained and
+aged out, in
+[plugins/firstday/README.md](plugins/firstday/README.md#what-this-needs-access-to).
+
 ## If you're not on Claude Code
 
 The skills assume a folder they can write to, which means the desktop app on a

@@ -27,6 +27,36 @@ You can also just ask in plain English — "set up my second brain" will find it
 
 **Design Your Assistant** (`/firstday:assistant`) — invent the colleague. Five questions, then it writes a full persona: who they are, how they got good at this, what shaped them, what they care about, how they are to work with, and exactly how they will deal with you. It gets a name and its own file. Then it reduces all of that to ten lines of instruction that go into your standing instructions, because the persona is the character and the instructions are what actually change the behaviour. Do this last, once there is something to have a voice about.
 
+## What this needs access to
+
+For IT, so these can be pre-approved rather than inherited from whatever the
+session already happens to have. This is the complete list — nothing here needs
+more.
+
+| Access | Used by | What for | Needed? |
+|---|---|---|---|
+| **Filesystem — read and write, one folder the user nominates** | all four | Creating and maintaining `About me.md`, `People.md`, `CLAUDE.md`, `Assistant.md` and `Meetings/` | Required for the full version. Denied, everything still runs and produces a pack the user sets up by hand |
+| **Calendar — read** | `brief` | Reading today's meetings into the morning brief | Optional. Without it the brief is built from the user's own files |
+| **Mail — read** | `brief` | Optionally surfacing what is outstanding | Optional, and off by default unless the user asks |
+| **Scheduled tasks** | `brief` | Creating the recurring job that sends the brief each morning | Optional. Without it the brief works on request but does not arrive on its own |
+
+**Not required, and not requested:** calendar write, mail send, contacts,
+directory lookup, or access to any folder other than the one the user names.
+
+**Where the data goes.** The files are plain text on the user's own machine and
+are read and written in place. Nothing is uploaded to a third party by the
+plugin itself, and no data leaves the user's existing Claude session. The one
+thing to check locally is the delivery route for the morning brief — that uses
+whatever the surface provides, so confirm which mechanism applies in your
+environment before approving that step.
+
+**The data protection point worth knowing.** `People.md` holds named colleagues,
+and `Meetings/` accumulates notes about them. The pack constrains this by
+design: working context only, no performance, pay or health information, and a
+standing instruction to flag departed people and notes older than six months for
+removal. Users are asked where the folder lives before anything is written, and
+warned if it is a shared or team folder.
+
 ## Where your files end up
 
 Three plain text files in a folder on your machine. That is the whole thing, and it is yours — no app owns it and nothing is locked in.
@@ -36,6 +66,13 @@ Three plain text files in a folder on your machine. That is the whole thing, and
 **If it cannot** — an iPad, a phone, the web — you get the identical conversation and a complete pack at the end: every file written out, plus a five-step card for setting it up in about five minutes when you are next at a laptop. It is not a lesser version. Some people end up with a tidier result that way, because nothing is being typed under time pressure.
 
 **One of those files is about other people**, so it's worth being deliberate about it. Keep it to working context — what someone needs from you, how they like to be dealt with. Nothing about performance, pay or health. The test is the one the induction gives you: write it as though they'll read it one day. They might.
+
+**So where you put the folder matters.** Anyone who can open the folder can read
+that file. Your own drive or cloud account is fine. A folder shared with your
+team is not the place for it, and the induction will ask you before it writes
+anything. You will also be offered a clear-out from time to time — people you
+have stopped working with, notes past six months — which you can decline, and
+nothing is ever deleted without you saying so.
 
 **Obsidian is optional and comes later.** It is a free app that opens the same folder. Nothing here needs it. What it adds is that your files start linking to each other, so mention a person once and every future mention finds them — which matters at thirty files rather than three.
 

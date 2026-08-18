@@ -38,6 +38,9 @@ Nothing in it needs the person it's about.
 
 1. On the laptop, make a folder somewhere it'll be found again.
    Documents/Second brain works. Somewhere backed up is better.
+   Not a shared or team folder — People.md names colleagues, and
+   anyone with access to the folder can read it. Your own cloud
+   drive is fine; a folder the team shares is not.
 
 2. Make three text files inside it, named exactly:
    About me.md
@@ -65,6 +68,8 @@ Each one clearly headed, complete, ready to paste. Exactly as they would have be
 > That's everything. Nothing in here is locked to any app — it's plain text, and it's yours.
 >
 > One habit once it's running: correct one thing in it each week, when you notice it's wrong. That's the whole maintenance job.
+>
+> Two things the instructions file already tells me to do, so you don't have to remember them: flag anyone in the people file you've stopped working with, and flag meeting notes older than about six months. I'll offer, you decide, and I won't delete anything on my own.
 
 ---
 
