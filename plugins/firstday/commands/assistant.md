@@ -2,7 +2,7 @@
 description: Invent your assistant — who they are, where they came from, how they work with you — then reduce it to instructions and put it in place.
 ---
 
-Run the **design-your-assistant** skill in this plugin, at `skills/design-your-assistant/SKILL.md`, and follow it exactly as written.
+Run the **design-your-assistant** skill in this plugin, at `${CLAUDE_PLUGIN_ROOT}/skills/design-your-assistant/SKILL.md`, and follow it exactly as written.
 
 Build it with them, in three passes, checking between each. Never take their answers away and return with a finished character — it produces something impressive that nobody owns.
 

@@ -2,7 +2,7 @@
 description: Set up a short daily brief on your own day — your meetings, what each one needs, what's outstanding — delivered every morning.
 ---
 
-Run the **morning-brief** skill in this plugin, at `skills/morning-brief/SKILL.md`, and follow it exactly as written.
+Run the **morning-brief** skill in this plugin, at `${CLAUDE_PLUGIN_ROOT}/skills/morning-brief/SKILL.md`, and follow it exactly as written.
 
 Show them a sample brief built from their real day before you build anything. A brief they have seen and corrected is a brief they will still be reading in a month.
 
