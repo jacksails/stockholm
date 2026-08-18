@@ -43,10 +43,12 @@ Full detail in [plugins/firstday/README.md](plugins/firstday/README.md).
 
 `firstday` declares exactly what it needs so it can be pre-approved rather than
 inheriting whatever a session already has: read/write on one user-nominated
-folder, and optionally calendar read, mail read and scheduled tasks for the
-morning brief. No calendar write, no mail send, no contacts, no other folder.
-Full table, including how named colleagues in `People.md` are constrained and
-aged out, in
+folder, plus calendar read, mail read and scheduled tasks for the morning brief.
+Approving all four is the intent — the pack's value is joining them together,
+and filesystem alone gives you a filing cabinet rather than an assistant. What
+it never asks for: calendar write, mail send, contacts, or any folder other than
+the one the user names. Full table, including how named colleagues in
+`People.md` are constrained and aged out, in
 [plugins/firstday/README.md](plugins/firstday/README.md#what-this-needs-access-to).
 
 ## If you're not on Claude Code

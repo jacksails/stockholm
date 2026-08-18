@@ -33,21 +33,28 @@ For IT, so these can be pre-approved rather than inherited from whatever the
 session already happens to have. This is the complete list — nothing here needs
 more.
 
-| Access | Used by | What for | Needed? |
+**Approve all four if you can.** The point of this pack is joining things
+together: the value is an assistant that reads your day out of your calendar,
+knows what is outstanding, and writes it against context it already holds about
+your role and your people. Each item below degrades gracefully on its own, but
+approving only the filesystem leaves a filing cabinet rather than an assistant.
+
+| Access | Used by | What for | If denied |
 |---|---|---|---|
-| **Filesystem — read and write, one folder the user nominates** | all four | Creating and maintaining `About me.md`, `People.md`, `CLAUDE.md`, `Assistant.md` and `Meetings/` | Required for the full version. Denied, everything still runs and produces a pack the user sets up by hand |
-| **Calendar — read** | `brief` | Reading today's meetings into the morning brief | Optional. Without it the brief is built from the user's own files |
-| **Mail — read** | `brief` | Optionally surfacing what is outstanding | Optional, and off by default unless the user asks |
-| **Scheduled tasks** | `brief` | Creating the recurring job that sends the brief each morning | Optional. Without it the brief works on request but does not arrive on its own |
+| **Filesystem — read and write, one folder the user nominates** | all four | Creating and maintaining `About me.md`, `People.md`, `CLAUDE.md`, `Assistant.md` and `Meetings/` | Everything still runs, but produces a pack the user copies into place by hand |
+| **Calendar — read** | `brief` | Reading today's meetings, so the brief says what each one needs from them | The brief is built from the user's files alone — "what's open" rather than "here's your day" |
+| **Mail — read** | `brief` | Surfacing what is outstanding and waiting on them | The brief loses the part that makes it feel current |
+| **Scheduled tasks** | `brief` | Creating the recurring job that delivers the brief each morning | The brief works on request but never arrives on its own, which is most of the point |
 
 **Not required, and not requested:** calendar write, mail send, contacts,
 directory lookup, or access to any folder other than the one the user names.
+Everything the pack reads, it reads; it does not write to your mail or calendar.
 
 **Where the data goes.** The files are plain text on the user's own machine and
 are read and written in place. Nothing is uploaded to a third party by the
 plugin itself, and no data leaves the user's existing Claude session. The one
-thing to check locally is the delivery route for the morning brief — that uses
-whatever the surface provides, so confirm which mechanism applies in your
+thing to confirm locally is the delivery route for the morning brief — that uses
+whatever the surface provides, so check which mechanism applies in your
 environment before approving that step.
 
 **The data protection point worth knowing.** `People.md` holds named colleagues,
