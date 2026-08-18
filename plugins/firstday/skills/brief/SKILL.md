@@ -1,5 +1,5 @@
 ---
-name: morning-brief
+name: brief
 description: Sets up a short brief that arrives every working morning with today's meetings, what each one needs, and what is still open, drawn from your calendar and your own files. Includes a test send.
 ---
 
@@ -20,7 +20,11 @@ Check, in this order:
 3. **Mail** — optional, and often the thing that makes it feel alive.
 4. **A way to schedule and deliver** — a scheduled task, a recurring job, whatever the surface offers.
 
-Say what you found in one line. If the calendar will not connect, do not troubleshoot it at length:
+Say what you found in one line, and **be exact about what you cannot reach**.
+If a connector is missing, name it and say what it would have added — do not
+quietly produce a thinner brief and let them assume that is all there is.
+
+If the calendar will not connect, do not troubleshoot it at length:
 
 > Calendar isn't connecting, which is an account setting rather than anything you've done. I'll build this from your files for now and it'll be better the day that's switched on.
 
@@ -76,6 +80,9 @@ Write the instructions as though the session running it has never met them, beca
 **Then send one immediately.** Not a preview in the chat — a real one, through the real delivery route, landing where the daily one will land.
 
 > Sending you one now so we know the plumbing works.
+
+**Never say the scheduled task is running unless it genuinely was created.**
+Tell them what will arrive, when, and what to do if it does not.
 
 Then wait, and confirm it arrived. If it did not, fix it now. A brief that fails silently on a Wednesday is invisible; a brief that fails while you are still in the conversation gets fixed.
 

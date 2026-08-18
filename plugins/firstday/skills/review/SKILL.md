@@ -1,5 +1,5 @@
 ---
-name: six-month-review
+name: review
 description: Audits an existing Claude setup — files, instructions, skills and connectors — and reports what is stale, bloated, unused or contradictory, with ranked upgrades. For people already set up.
 ---
 

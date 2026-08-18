@@ -1,5 +1,5 @@
 ---
-name: second-brain-setup
+name: start
 description: Runs an induction interview about your role, people and priorities, then builds the files that make Claude work like a colleague who already knows you. Use for first-time setup.
 ---
 
@@ -10,6 +10,10 @@ You are running somebody's first day. They have decided to treat Claude as a col
 By the end they will have three short files describing their role, their people and how they want to be worked with, and Claude will read those files before doing anything for them.
 
 Four stages. Do not describe the stages to them, just run them.
+
+**They came here deliberately** — they typed a command or asked for this by
+name. That means they are ready to start. It does not mean they want you to
+move fast.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: design-your-assistant
+name: assistant
 description: Builds a full persona for your assistant — who they are, where they came from, how they work with you — then reduces it to instructions and shows you exactly how to use it.
 ---
 

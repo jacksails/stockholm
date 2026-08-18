@@ -19,13 +19,13 @@ You can also just ask in plain English — "set up my second brain" will find it
 
 ## The four skills
 
-**Second Brain Setup** — the induction. About six questions on your role, your week, your people and what you are driving, then it writes four files: what it knows about you, who you deal with, what is live right now, and the standing instructions that tie them together. Twenty minutes. Start here.
+**Second Brain Setup** (`/firstday:start`) — the induction. About six questions on your role, your week, your people and what you are driving, then it writes four files: what it knows about you, who you deal with, what is live right now, and the standing instructions that tie them together. Twenty minutes. Start here.
 
-**Six Month Review** — for anyone who already has a setup. Goes through what you have built and reports what has gone stale, what has bloated past the point of being followed, what contradicts itself, and the one capability you are missing that would matter most. Ends with something to delete.
+**Six Month Review** (`/firstday:review`) — for anyone who already has a setup. Goes through what you have built and reports what has gone stale, what has bloated past the point of being followed, what contradicts itself, and the one capability you are missing that would matter most. Ends with something to delete.
 
-**Morning Brief** — a short brief that arrives every working morning: today's meetings, what each one needs from you, and what is still open. Sends you a real one before it finishes so you know the plumbing works.
+**Morning Brief** (`/firstday:brief`) — a short brief that arrives every working morning: today's meetings, what each one needs from you, and what is still open. Sends you a real one before it finishes so you know the plumbing works.
 
-**Design Your Assistant** — invent the colleague. Five questions, then it writes a full persona: who they are, how they got good at this, what shaped them, what they care about, how they are to work with, and exactly how they will deal with you. It gets a name and its own file. Then it reduces all of that to ten lines of instruction that go into your standing instructions, because the persona is the character and the instructions are what actually change the behaviour. Do this last, once there is something to have a voice about.
+**Design Your Assistant** (`/firstday:assistant`) — invent the colleague. Five questions, then it writes a full persona: who they are, how they got good at this, what shaped them, what they care about, how they are to work with, and exactly how they will deal with you. It gets a name and its own file. Then it reduces all of that to ten lines of instruction that go into your standing instructions, because the persona is the character and the instructions are what actually change the behaviour. Do this last, once there is something to have a voice about.
 
 ## Where your files end up
 
