@@ -1,0 +1,18 @@
+{
+  "name": "firstday",
+  "version": "1.0.5",
+  "description": "Induct Claude the way you would induct your best graduate. Four skills that build a working second brain, review it later, deliver a morning brief, and set how it talks to you.",
+  "author": {
+    "name": "Jack Sails",
+    "email": "jack.sails@smollan.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "onboarding",
+    "second-brain",
+    "context",
+    "induction",
+    "assistant",
+    "briefing"
+  ]
+}

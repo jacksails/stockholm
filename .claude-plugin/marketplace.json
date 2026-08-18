@@ -1,0 +1,17 @@
+{
+  "name": "stockholm",
+  "owner": {
+    "name": "Jack Sails",
+    "email": "jack.sails@smollan.com"
+  },
+  "metadata": {
+    "description": "Plugins from the Stockholm session — install them and keep them."
+  },
+  "plugins": [
+    {
+      "name": "firstday",
+      "source": "./plugins/firstday",
+      "description": "The New Starter Pack. Induct Claude the way you would induct your best graduate: build a working second brain, review it later, get a morning brief, and set how it talks to you."
+    }
+  ]
+}
